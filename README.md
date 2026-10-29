@@ -64,5 +64,100 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Authress is a company surfaced via the API Evangelist harvest backlog (source: tag-qc) and added to the network as a stub for full-pipeline profiling.
-- https://authress.io
+Authress provides a login and access control API offering authentication, authorization, and fine‑grained permission management for applications. It supports SAML, OAuth, OIDC, social logins, passwordless WebAuthn, and machine tokens, with features like tenant separation, audit trails, and GDPR‑compliant data handling. The service includes a developer portal, SDKs in multiple languages, Terraform provider, and extensive documentation for quick integration.
+
+**Areas:** Company · Authentication · Authorization · Access Control · Identity
+
+## Authress on APIs.io
+
+Everything profiled for Authress is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/authress/](https://apis.io/providers/authress/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Authress Authorization API](https://apis.io/apis/authress/authress-authorization-api/) — Authress REST API for managing users, permissions, roles, and access control.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Authress Authentication](https://apis.io/security/authress/authress-authentication/)
+- [Authress Domain Security](https://apis.io/security/authress/authress-domain-security/)
+- [Authress Vulnerability Disclosure](https://apis.io/security/authress/authress-vulnerability-disclosure/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Authress Rate Limits](https://apis.io/rate-limits/authress/authress-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://authress.io)
+- [Documentation](https://authress.io/knowledge-base/docs/introduction)
+- [Getting started](https://authress.io/knowledge-base/getting-started-with-authress)
+- [API reference](https://authress.io/knowledge-base/docs/introduction)
+- [Pricing](https://authress.io/pricing)
+- [Support](https://authress.instatus.com)
+- [Changelog](https://authress.io/knowledge-base/release-notes)
+- [Blog](https://authress.io/blog)
+- [Security](https://authress.io/app/#/disclosure)
+- [GitHub](https://github.com/Authress)
+
+## API Evangelist rating
+
+**Kin Score 31.9** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 73.2 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 63.2 |
+| Developer ergonomics | 54.8 |
+| Access clarity | 10.5 |
+
+**Agent readiness 5.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 22.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/authress/](https://apis.io/providers/authress/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Authress: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/authress/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
